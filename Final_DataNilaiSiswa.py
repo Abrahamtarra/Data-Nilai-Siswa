@@ -218,7 +218,7 @@ GUNAKAN HURUF BESAR
                         
                         KodeKelasIPA = pypi.inputStr(prompt='Masukan Kode Kelas: ')
                         IDSiswaIPA = pypi.inputInt(prompt='Masukkan ID Siswa: ')
-                        NamaSisIPA = pypi.inputStr(prompt='Masukan Nama Siswa: ')
+                        NamaSisIPA = pypi.inputStr(prompt='Masukan Nama Siswa: ', blockRegexes=[r'[0-9|?#/>,.<:;"!@$%^&*]'])
                         KodeNil = pypi.inputInt(prompt='Masukkan Kode Nilai: ')
                         ValIPA =[KodeKelasIPA,IDSiswaIPA,NamaSisIPA]
                         ValNil =[KodeNil,IDSiswaIPA]
@@ -266,7 +266,7 @@ GUNAKAN HURUF BESAR
                         
                         KodeKelasIPS = pypi.inputStr(prompt='Masukan Kode Kelas: ')
                         IDSiswaIPS = pypi.inputInt(prompt='Masukkan ID Siswa: ')
-                        NamaSisIPS = pypi.inputStr(prompt='Masukan Nama Siswa: ')
+                        NamaSisIPS = pypi.inputStr(prompt='Masukan Nama Siswa: ', blockRegexes=[r'[0-9|?#/>,.<:;"!@$%^&*]'])
                         KodeNilIPS = pypi.inputInt(prompt='Masukkan Kode Nilai: ')
                         ValIPS =[KodeKelasIPS,IDSiswaIPS,NamaSisIPS]
                         ValNilIPS =[KodeNilIPS,IDSiswaIPS]
@@ -314,7 +314,7 @@ GUNAKAN HURUF BESAR
                         
                         KodeKelasBAHASA = pypi.inputStr(prompt='Masukan Kode Kelas: ')
                         IDSiswaBAHASA = pypi.inputInt(prompt='Masukkan ID Siswa: ')
-                        NamaSisBAHASA = pypi.inputStr(prompt='Masukan Nama Siswa: ')
+                        NamaSisBAHASA = pypi.inputStr(prompt='Masukan Nama Siswa: ', blockRegexes=[r'[0-9|?#/>,.<:;"!@$%^&*]'])
                         KodeNilBAHASA = pypi.inputInt(prompt='Masukkan Kode Nilai: ')
                         ValBAHASA =[KodeKelasBAHASA,IDSiswaBAHASA,NamaSisBAHASA]
                         ValNilBAHASA =[KodeNilBAHASA,IDSiswaBAHASA]
